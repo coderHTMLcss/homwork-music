@@ -1,0 +1,128 @@
+.category{
+    position: relative;
+    padding: 240px 0;
+}
+
+.category::before{
+    content: url('./../img/decorate-elements/confett-ligth-redi.png');
+    position: absolute;
+    display: block;
+
+    width: 101px;
+    height: 101px;
+
+    top: 280px;
+    left: 78px;
+    right: 0px; 
+}
+
+.category::after{
+    content: url('./../img/decorate-elements/confetti2.png');
+    position: absolute;
+    display: block;
+
+    width: 162px;
+    height: 112px;
+
+    top: 660px;
+    left: 149px;
+    right: 0px; 
+}
+
+
+.section-title{
+    margin-bottom: 60px;
+
+    color: var(--dark-color);
+}
+
+.section-title span{
+    color: var(--blue-color);
+}
+
+.category__wrapper{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 30px;
+}
+
+.category__item{
+    position: relative;
+    width: 370px;
+    height: 100%;
+    padding: 90px 120px 36px 60px;
+
+    border-radius: 24px;
+}
+
+.category__item:first-child{
+    background: var(--orange-color--opacity);
+}
+
+.category__item:nth-child(2){
+    background: var(--red-color--opacity);
+}
+
+.category__item:nth-child(3){
+    background: var(--blue-color);
+    color: var(--white-color);
+}
+.category__item:nth-last-child(3)>.category__description{
+    color: var(--white-color--opacity);
+}
+
+.category__item:nth-last-child(3)>.category__title{
+    color: var(--white-color);
+}
+
+.category__item:nth-child(4){
+    background: var(--pink-color--opacity);
+}
+
+.category__item:last-child{
+    background: var(--ligth-blue--opacity);
+}
+
+.category__item:last-child::before{
+    content: url('./../img/decorate-elements/circle-blue.png');
+    position: absolute;
+    display: block;
+
+    width: 26px;
+    height: 26px;
+
+    top: 296px;
+    left: 265px;
+    right: 0px; 
+}
+
+.category__item:last-child::after{
+    content: url('./../img/decorate-elements/confetti-dark.png');
+    position: absolute;
+    display: block;
+
+    width: 40px;
+    height: 8px;
+
+    top: 0px;
+    left: 146px;
+    right: 0px;
+}
+
+
+.category__img{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.category__title{
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 800;
+
+    margin-bottom: 20px;
+
+    color: var(--dark-color);
+}
+
+

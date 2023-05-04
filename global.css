@@ -17,12 +17,85 @@ html {
     line-height: 1.5;
     font-weight: 400;
     font-style: normal;
-    color: var(--dark-color);
+    color: var(--dark-color--opacity);
     background-color: var(--white-color);
   }
-  
+
+
   .container {
     max-width: 1190px;
     margin: 0 auto;
     padding: 0 10px;
   }
+
+  .button{
+    padding: 18px 0px;
+    display: block;
+     
+    font-family: 'Montserrat',sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    
+    outline: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+
+  .button__secondary{
+    width: 175px;
+   
+    color:var(--blue-color);
+    background-color: var(--white-color);
+}
+
+.button__secondary:hover{
+    color: var(--white-color);
+    background-color: var(--red-color);
+}
+
+.button__secondary:active{
+    color: var(--white-color);
+    background-color: var(--red-color);
+}
+
+.button__secondary:focus{
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 2px var(--dark-color);
+}
+
+.button__secondary--bg{
+    width: 164px;
+
+    color:var(--white-color);
+    background-color: var(--red-color);
+}
+
+.button__secondary--bg:hover{
+    color: var(--blue-color);
+    background-color: var(--white-color);
+}
+
+.button__secondary--bg:active{
+    color: var(--blue-color);
+    background-color: var(--white-color);
+}
+
+.button__secondary--bg:focus{
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 2px var(--dark-color);
+}
+
+.section-title{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 34px;
+    line-height: 44.2px;
+    font-weight: 700;
+}
+
+
