@@ -2,6 +2,9 @@
 @import url('./../variables.css');
 
 @import url('./../sections/category.css');
+@import url('./../sections/about.css');
+@import url('./../sections/singers.css');
+@import url('./../sections/sponsors.css');
 
 
 .header{
@@ -138,8 +141,10 @@
     line-height: 176px;
     font-weight: 700;
     display: block;
-
+    width: 1447px;
     text-align: center;
+    
+    margin: 0 auto;
 
 
     

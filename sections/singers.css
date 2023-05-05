@@ -1,0 +1,46 @@
+.singers{
+    position: relative;
+    padding-bottom: 240px;
+}
+
+/* .singers::after{
+    content: url('./../img/decorate-elements/pattern-singers-rigth.png');
+    display: block;
+
+    width: 301px;
+    height: 173px;
+
+    top: 0px;
+    left: 0px;
+    right: 0px;
+} */
+
+.singers__wrapper{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.singers__content{
+    max-width: 470px;
+}
+
+
+.singers__description{
+    margin-bottom: 80px;
+}
+
+.singers__gallary{
+    width: 670px;
+    height: 672px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column: auto;
+    grid-row: auto;
+
+    grid-gap: 51px 30px;
+}
+
+.button__primary--singers{
+    width: 240px;
+}

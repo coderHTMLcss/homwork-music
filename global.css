@@ -91,6 +91,49 @@ html {
     box-shadow: 0 0 0 2px var(--dark-color);
 }
 
+.button__primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    color: var(--white-color);
+    background-color: var(--blue-color);
+}
+
+.button__primary svg{
+    fill: var(--white-color);
+}
+
+.button__primary:hover svg{
+    fill: var(--blue-color);
+}
+
+.button__primary:active{
+    color: var(--blue-color);
+    background-color: var(--white-color);
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 2px var(--blue-color);
+}
+
+.button__primary:hover{
+    background-color: var(--white-color);
+    color: var(--blue-color);
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 2px var(--blue-color);
+   
+}
+
+.button__primary:focus{
+    background-color: var(--white-color);
+    color: var(--blue-color);
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 2px var(--blue-color);
+}
+
 .section-title{
     font-family: 'Montserrat',sans-serif;
     font-size: 34px;
