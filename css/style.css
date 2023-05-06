@@ -7,6 +7,8 @@
 @import url('./../sections/sponsors.css');
 @import url('./../sections/shots.css');
 
+@import url('./../footer.css');
+
 
 .header{
     background-image: url('./../img/background-img.png');
@@ -16,25 +18,25 @@
     height: 100vh;
 }
 
-.menu{
+.header__menu{
     padding: 32px 0px;
     display: flex;
     align-items: center;
 }
 
-.menu__list{
+.header__menu-list{
     display: flex;
     align-items: center;
     column-gap: 40px;
     margin:0px 50px 0px 371px;
 }
 
-.menu__item:nth-child(2),
-.menu__item:nth-child(3){
+.header__menu-item:nth-child(2),
+.header__menu-item:nth-child(3){
     position: relative;
 }
 
-.menu__item:nth-child(2)::after{
+.header__menu-item:nth-child(2)::after{
     content: url('./../img/svg-icons/arrow-down.svg');
     position: absolute;
     top: 0px;
@@ -43,7 +45,7 @@
     cursor: pointer;
 }
 
-.menu__item:nth-child(3)::after{
+.header__menu-item:nth-child(3)::after{
     content: url('./../img/svg-icons/arrow-down.svg');
     position: absolute;
     top: 0px;
@@ -52,7 +54,7 @@
     cursor: pointer;
 }
 
-.menu__link{
+.header__menu-link{
     font-family: 'Montserrat',sans-serif;
     font-size: 14px;
     line-height: 20px;
@@ -63,16 +65,16 @@
     color:var(--white-color)
 }
 
-.menu__link:hover{
+.header__menu-link:hover{
     color: var(--dark-color);
     border-bottom: 2px solid var(--dark-color);
 }
 
-.menu__link:active{
+.header__menu-link:active{
     color: var(--dark-color);
 }
 
-.menu__link:focus{
+.header__menu-link:focus{
     color: var(--dark-color);
 }
 
