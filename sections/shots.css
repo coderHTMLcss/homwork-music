@@ -1,5 +1,6 @@
 .shots{
     position: relative;
+    overflow: hidden;
     background-image: linear-gradient(to bottom,
      rgba(252, 82, 82, 0.05)  0%, transparent 100%,
       rgba(252, 82, 82, 0)  100%, transparent 50.1%);

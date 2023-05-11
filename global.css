@@ -15,8 +15,7 @@ html {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    font-weight: 400;
-    font-style: normal;
+    
     color: var(--dark-color--opacity);
     background-color: var(--white-color);
   }

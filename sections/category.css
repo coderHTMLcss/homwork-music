@@ -1,6 +1,7 @@
 .category{
     position: relative;
     padding: 240px 0;
+    overflow: hidden;
 }
 
 .category::before{

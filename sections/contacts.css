@@ -1,5 +1,15 @@
 .contacts{
     background-color: var(--dark-color--ligth);
+    position: relative;
+}
+
+.contacts::before{
+    content: url('./../img/decorate-elements/shape-form.png');
+    display: inline-block;
+    position: absolute;
+
+    right: 56px;
+    bottom: -7px;
 }
 
 .contacts__wrapper{
@@ -23,8 +33,8 @@
     width: 224px;
     height: 232px;
 
-    top: 451px;
-    left: 621.5px;
+    right: 0px;
+    bottom: 0px;
 }
 
 .section-title--contacts{
@@ -43,7 +53,6 @@
 }
 
 .contacts__item{
-    position: relative;
     margin-bottom: 40px;
 }
 
@@ -51,43 +60,11 @@
     margin-bottom: 0px;
 }
 
-.contacts__item:first-child::before{
-    content: url('./../img/svg-icons/phone.svg');
-    position: relative;
-    display: inline-block;
-
-    width: 24px;
-    height: 24px;
-    top: 7px;
-    left: 0px;
-    margin-right: 8px;
-}
-
-.contacts__item:nth-child(2)::before{
-    content: url('./../img/svg-icons/email.svg');
-    position: relative;
-    display: inline-block;
-
-    width: 24px;
-    height: 24px;
-    top: 7px;
-    left: 0px;
-    margin-right: 8px;
-}
-
-.contacts__item:last-child::before{
-    content: url('./../img/svg-icons/map-point.svg');
-    position: relative;
-    display: inline-block;
-
-    width: 24px;
-    height: 24px;
-    top: 7px;
-    left: 0px;
-    margin-right: 8px;
-}
-
 .contacts__link{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+
     font-family: 'Montserrat',sans-serif;
     font-size: 16px;
     line-height: 20px;
@@ -116,58 +93,82 @@
     font-size: 12px;
     line-height: 18px;
     font-weight: 700;
+    transition: 0.5s;
 }
 
 .login__input{
     width: 100%;
     border: none;
     outline: none;
-    margin-bottom: 8px;
+
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+
+    margin-bottom: 30px;
+    padding-bottom: 8px;
+    
+    border-bottom: 1px solid var(--grey-color);
+    background-color: transparent;
+    transition: 0.5s;
 }
 
-.login__input:focus{
-    border: 1px solid var(--blue-color);
-}
-
-.login__input-border{
-    width: 100%;
-    height: 1px;
-    background-color: var(--grey-color);
-
-    margin-bottom: 22px;
-}
 
 .login__input::placeholder{
     color: var(--dark-color);
-    background-color: var(--dark-color--ligth);
 }
+
+.login__lable:hover{
+    color: var(--blue-color);
+}
+
+.login__lable>.login__input:hover{
+    border-color: var(--blue-color);
+}
+
 
 .login__lable--textarea{
     font-size: 12px;
     line-height: 18px;
     font-weight: 700;
-    color: var(--blue-color);
+    transition: 0.5s;
 }
 
 .login__textarea{
+    display: block;
     width: 100%;
-    height: 122px;
+    height: 104px;
+
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
     outline: none;
-    resize: none;
     border: none;
     overflow: hidden;
+    resize: none;
+
+    margin-bottom: 40px;
+    padding-bottom: 8px;
+    
+    background-color: transparent;
+    border-bottom: 1px solid var(--grey-color);
+    transition: 0.5s;
 }
 
-.login__textarea:focus{
-    border: 1px solid var(--blue-color);
-}
 
 .login__textarea::placeholder{
     color: var(--dark-color);
 }
 
-.login__input-border--textarea{
-    background-color: var(--blue-color);
+
+.login__lable--textarea:hover{
+    color: var(--blue-color);
+}
+
+.login__lable--textarea>.login__textarea:hover{
+    border-color: var(--blue-color);
 }
 
 .button__primary--submit{
