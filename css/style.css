@@ -25,6 +25,15 @@
     align-items: center;
 }
 
+.header__menu--fixed{
+    position: fixed;
+    width: 100%;
+    max-width: 1170px;
+    transition:all .5s linear;
+    top: 0;
+    background-color: rgba(56, 29, 219, 0.2); 
+}
+
 .header__menu-list{
     display: flex;
     align-items: center;
@@ -80,7 +89,7 @@
 }
 
 .header__content{
-    padding-top: 105px;
+    padding-top: 225px;
     max-width: 970px;
     margin: 0 auto;
     text-align: center;

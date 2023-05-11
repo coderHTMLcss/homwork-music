@@ -18,6 +18,8 @@ html {
     
     color: var(--dark-color--opacity);
     background-color: var(--white-color);
+
+    z-index: -1;
   }
   
   .sr-only {
