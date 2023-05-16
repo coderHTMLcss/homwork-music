@@ -1,40 +1,26 @@
 .contacts{
     background-color: var(--dark-color--ligth);
-    position: relative;
-}
-
-.contacts::before{
-    content: url('./../img/decorate-elements/shape-form.png');
-    display: inline-block;
-    position: absolute;
-
-    right: 56px;
-    bottom: -7px;
 }
 
 .contacts__wrapper{
     display: flex;
     align-items: center;
-    column-gap: 130px;
 }
 
 .contacts__info{
-    position: relative;
+    display: block;
     width: 845px;
     padding: 120px 180px 220px 80px;
+    position: relative;
     background-color: var(--blue-color);
 }
 
 .contacts__info::after{
     content: url('./../img/decorate-elements/shape-contact.png');
     position: absolute;
-    display: inline-block;
-
-    width: 224px;
-    height: 232px;
-
+    
     right: 0px;
-    bottom: 0px;
+    bottom: -7px;
 }
 
 .section-title--contacts{
@@ -73,9 +59,21 @@
     color: var(--white-color);
 }
 
+.login__wrapper{
+    position: relative;
+    padding: 97px 0px 103px 130px;  
+}
+
+.login__wrapper::after{
+    content: url('./../img/decorate-elements/shape-form.png');
+    position: absolute;
+
+    right:-319px;
+    bottom: -7px;
+}
+
 .login{
-    width: 590px;
-    padding: 0 10px;
+    width: 570px;
 }
 
 .login__title{
@@ -90,6 +88,9 @@
 }
 
 .login__lable{
+    display: block;
+    height: 42px;
+    margin-bottom: 38px;
     font-size: 12px;
     line-height: 18px;
     font-weight: 700;
@@ -106,7 +107,6 @@
     line-height: 24px;
     font-weight: 400;
 
-    margin-bottom: 30px;
     padding-bottom: 8px;
     
     border-bottom: 1px solid var(--grey-color);

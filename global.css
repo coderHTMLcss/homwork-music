@@ -2,14 +2,6 @@ html {
     box-sizing: border-box;
   }
   
-  *,
-  *::after,
-  *::before {
-    box-sizing: inherit;
-    padding: 0px;
-    margin: 0px;
-  }
- 
   
   body {
     font-family: 'Raleway', sans-serif;

@@ -239,62 +239,56 @@
 
         </section>
 
-        <section class="singers">
-            <div class="container">
-                <div class="singers__wrapper">
-                    <div class="singers__content">
-                        <h2 class="section-title">Singers</h2>
-                        <p class="singers__description">
-                            Fusce justo mi, vehicula id arcu et, dapibus tristique lectus. Vivamus a elit sodales,
-                            tincidunt
-                            nunc non, maximus lacus. Fusce a augue sed dolor auctor iaculis vitae id mauris. Integer ut
-                            lectus non neque suscipit luctus. Mauris et erat id ipsum condimentum cursus. Sed tempus
-                            enim
-                            non massa mattis iaculis. In quis massa risus
-                        </p>
-                        <a class="button button__primary button__primary--singers" href="#">View All Singers
-                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_1_51)">
-                                    <path
-                                        d="M16.172 11L10.808 5.63598L12.222 4.22198L20 12L12.222 19.778L10.808 18.364L16.172 13H4V11H16.172Z" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_1_51">
-                                        <rect width="24" height="24" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
-                        </a>
-                    </div>
-                    <ul class="singers__gallary">
-
-                        <li class="singers__gallary-item--1">
-                            <a class="singers__gallary-link">
-                                <img src="img/singers/singer1.png" alt="Singer foto">
-                            </a>
-                        </li>
-                        <li class="singers__gallary-item--2">
-                            <a class="singers__gallary-link">
-                                <img src="img/singers/singer2.png" alt="Singer foto">
-                            </a>
-                        </li>
-                        <li class="singers__gallary-item--3">
-                            <a class="singers__gallary-link">
-                                <img src="img/singers/singer3.png" alt="Singer foto">
-                            </a>
-                        </li>
-                        <li class="singers__gallary-item--4">
-                            <a class="singers__gallary-link">
-                                <img src="img/singers/singer4.png" alt="Singer foto">
-                            </a>
-                        </li>
-
-                    </ul>
-                </div>
+        <section class="singers  container">
+            <div class="singers__content">
+                <h2 class="section-title">Singers</h2>
+                <p class="singers__description">
+                    Fusce justo mi, vehicula id arcu et, dapibus tristique lectus. Vivamus a elit sodales,
+                    tincidunt
+                    nunc non, maximus lacus. Fusce a augue sed dolor auctor iaculis vitae id mauris. Integer ut
+                    lectus non neque suscipit luctus. Mauris et erat id ipsum condimentum cursus. Sed tempus
+                    enim
+                    non massa mattis iaculis. In quis massa risus
+                </p>
+                <a class="button button__primary button__primary--singers" href="#">View All Singers
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1_51)">
+                            <path
+                                d="M16.172 11L10.808 5.63598L12.222 4.22198L20 12L12.222 19.778L10.808 18.364L16.172 13H4V11H16.172Z" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_1_51">
+                                <rect width="24" height="24" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
             </div>
+            <ul class="singers__gallary">
+                <li class="singers__gallary-item">
+                    <a class="singers__gallary-link">
+                        <img src="img/singers/singer1.png" alt="Singer foto">
+                    </a>
+                </li>
+                <li class="singers__gallary-item">
+                    <a class="singers__gallary-link">
+                        <img src="img/singers/singer2.png" alt="Singer foto">
+                    </a>
+                </li>
+                <li class="singers__gallary-item">
+                    <a class="singers__gallary-link">
+                        <img src="img/singers/singer3.png" alt="Singer foto">
+                    </a>
+                </li>
+                <li class="singers__gallary-item">
+                    <a class="singers__gallary-link">
+                        <img src="img/singers/singer4.png" alt="Singer foto">
+                    </a>
+                </li>
+            </ul>
         </section>
 
-        <div class="sponsors">
+        <section class="sponsors">
             <div class="container">
                 <h2 class="section-title section-title--sponsors">Our Sponsors</h2>
                 <ul class="sponsors__list">
@@ -327,7 +321,7 @@
                 </ul>
                 <a class="button button__primary button__primary--spons" href="#">Become a Sponsor</a>
             </div>
-        </div>
+        </section>
 
         <section class="shots">
             <div class="container">
@@ -516,33 +510,33 @@
                     </ul>
                 </address>
 
-                <form class="login" action="#">
+                <div class="login__wrapper">
                     <h3 class="login__title">Fill in your details</h3>
-                    <label class="login__lable" for="#">
-                        Name
-                        <input class="login__input" type="text" name="user-name" placeholder="John Doe" required>
-                    </label>
-                    <label class="login__lable" for="#">
-                        Email
-                        <input class="login__input" type="email" name="email" placeholder="johndoe2347@mail.com"
-                            required>
-                    </label>
-                    <label class="login__lable--textarea">
-                        Massage
-                        <textarea class="login__textarea" name="massage"
-                            placeholder="Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex |"
-                            required></textarea>
-                    </label>
+                    <form class="login" action="#">
+                        <label class="login__lable" for="#">
+                            Name
+                            <input class="login__input" type="text" name="user-name" placeholder="John Doe" required>
+                        </label>
+                        <label class="login__lable" for="#">
+                            Email
+                            <input class="login__input" type="email" name="email" placeholder="johndoe2347@mail.com"
+                                required>
+                        </label>
+                        <label class="login__lable--textarea">
+                            Massage
+                            <textarea class="login__textarea" name="massage"
+                                placeholder="Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex |"
+                                required></textarea>
+                        </label>
 
-                    <button class="button button__primary button__primary--submit" type="submit">Submit</button>
-                </form>
+                        <button class="button button__primary button__primary--submit" type="submit">Submit</button>
+                    </form>
+                </div>
             </div>
-
         </section>
     </main>
     <footer class="footer">
         <div class="container">
-
             <a class="logo" href="#">
                 <img class="logo__img" src="./img/logo.svg" alt="Logo">
             </a>
@@ -620,9 +614,9 @@
 
                 </ul>
 
-                <div class="footer-copyrigth">
+                <p class="footer-copyrigth">
                     © musik.com, 2021
-                </div>
+                </p>
 
             </nav>
         </div>
