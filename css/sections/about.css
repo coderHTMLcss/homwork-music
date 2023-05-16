@@ -12,6 +12,29 @@
     top: 421px;
     left: 93px;
     right: 0px;
+
+    animation: fast-wiggle 2s linear infinite;
+}
+
+@keyframes fast-wiggle{
+    10%{
+        transform: rotate(0deg) scale(1.2);
+    }
+    20%{
+        transform: rotate(10deg);
+    }
+    30%{
+        transform: rotate(-10deg) scale(1.4);
+    }
+    40%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(-10deg) scale(1.2);
+    }
+    60%{
+        transform: rotate(0deg) scale(1);
+    }
 }
 
 .about__wrapper{
@@ -47,6 +70,7 @@
     left: -90px;
     right: 0px;
     z-index: -1;
+ 
 }
 
 .about__music{

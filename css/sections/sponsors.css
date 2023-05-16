@@ -11,6 +11,23 @@
     height: 173px;
     top: 62px;
     left: -31px;
+
+    animation: moving 15s linear infinite alternate;
+}
+
+@keyframes moving {
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(300px);
+    }
+    50%{
+        transform:translateY(300px) translateX(500px) scale(0.5) rotate(360deg);
+    }
+    75%{
+        transform:translateX(0px) translateY(300px);
+    }
 }
 
 .sponsors::after{
@@ -19,8 +36,18 @@
 
     top: -93px;
     left: 1649px;
+
+    animation: scale-rotate1 10s infinite linear alternate;
 }
 
+@keyframes scale-rotate1{
+    from {
+         transform: rotate(180deg) scale(0.7); 
+        }
+    to {
+         transform: rotate(-180deg) scale(1);
+         }
+  }
 
 .section-title--sponsors{
     text-align: center;
@@ -44,7 +71,18 @@
 
     right: -331px;
     bottom: 0px;
+
+    animation: scale-rotate2 10s infinite linear alternate;
 }
+
+@keyframes scale-rotate2{
+    from {
+         transform: rotate(-180deg) scale(0.7); 
+        }
+    to {
+         transform: rotate(180deg) scale(1);
+         }
+  }
 
 .button__primary--spons{
     width: 225px;

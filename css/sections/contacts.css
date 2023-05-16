@@ -21,6 +21,17 @@
     
     right: 0px;
     bottom: -7px;
+
+    animation: scale 5s linear infinite;
+}
+
+@keyframes scale{
+    50%{
+        transform: translate(-50px,-50px) scale(1.2);
+    }
+    100%{
+        transform:translate(0px,0px) scale(1);
+    }
 }
 
 .section-title--contacts{
@@ -70,6 +81,29 @@
 
     right:-319px;
     bottom: -7px;
+
+    animation: move 10s linear infinite;
+}
+
+@keyframes move{
+    0%{
+        transform: translateX(0px);
+    }
+    20%{
+        transform: translateX(-200px);
+    }
+    40%{
+        transform: translate(0px,0px);
+    }
+    60%{
+        transform: translateY(-200px);
+    }
+    80%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
 }
 
 .login{
