@@ -5,29 +5,24 @@
 }
 
 .category::before{
-    content: url('./../img/decorate-elements/confett-ligth-redi.png');
+    content: url('./../../img/decorate-elements/confett-ligth-redi.png');
     position: absolute;
-    display: block;
-
+    
     width: 101px;
     height: 101px;
-
     top: 280px;
     left: 78px;
     right: 0px; 
 }
 
 .category::after{
-    content: url('./../img/decorate-elements/confetti2.png');
+    content: url('./../../img/decorate-elements/confetti2.png');
     position: absolute;
-    display: block;
-
-    width: 162px;
+    
+    width: 160px;
     height: 112px;
-
-    top: 660px;
+    top: 630px;
     left: 149px;
-    right: 0px; 
 }
 
 
@@ -85,26 +80,22 @@
 }
 
 .category__item:last-child::before{
-    content: url('./../img/decorate-elements/circle-blue.png');
+    content: url('./../../img/decorate-elements/circle-blue.png');
     position: absolute;
-    display: block;
-
+    
     width: 26px;
     height: 26px;
-
     top: 296px;
     left: 265px;
     right: 0px; 
 }
 
 .category__item:last-child::after{
-    content: url('./../img/decorate-elements/confetti-dark.png');
+    content: url('./../../img/decorate-elements/confetti-dark.png');
     position: absolute;
-    display: block;
-
+  
     width: 40px;
     height: 8px;
-
     top: 0px;
     left: 146px;
     right: 0px;

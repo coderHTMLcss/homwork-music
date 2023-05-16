@@ -16,7 +16,7 @@
 }
 
 .contacts__info::after{
-    content: url('./../img/decorate-elements/shape-contact.png');
+    content: url('./../../img/decorate-elements/shape-contact.png');
     position: absolute;
     
     right: 0px;
@@ -65,7 +65,7 @@
 }
 
 .login__wrapper::after{
-    content: url('./../img/decorate-elements/shape-form.png');
+    content: url('./../../img/decorate-elements/shape-form.png');
     position: absolute;
 
     right:-319px;

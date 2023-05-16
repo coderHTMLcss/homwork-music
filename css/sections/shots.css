@@ -23,8 +23,7 @@
 }
 
 .shots__item:first-child::before{
-    content: url('./../img/svg-icons/arrow-left.svg');
-    display: block;
+    content: url('./../../img/svg-icons/arrow-left.svg');
     position: absolute;
 
     top: 176px;
@@ -34,8 +33,7 @@
 }
 
 .shots__item:last-child::after{
-    content: url('./../img/svg-icons/arrow-rigth2.svg');
-    display: block;
+    content: url('./../../img/svg-icons/arrow-rigth2.svg');
     position: absolute;
 
     top: 176px;

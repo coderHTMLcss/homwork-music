@@ -6,6 +6,20 @@
     column-gap: 30px;
 }
 
+.singers::before{
+    content: url('../../img/decorate-elements/confett-ligth-redi2.png');
+    position: absolute;
+    bottom: 50px;
+    left: -235px;
+}
+
+.singers::after{
+    content: url('../../img/decorate-elements/pattern-singers-rigth.png');
+    position: absolute;
+    top: 109px;
+    right: -356px;
+}
+
 .singers__content{
     max-width: 470px;
 }

@@ -1,0 +1,14 @@
+@import url('./../layout/global.css');
+@import url('./../utils/variables.css');
+
+@import url('./../sections/header.css');
+@import url('./../sections/category.css');
+@import url('./../sections/about.css');
+@import url('./../sections/singers.css');
+@import url('./../sections/sponsors.css');
+@import url('./../sections/shots.css');
+@import url('./../sections/contacts.css');
+
+@import url('./../layout/footer.css');
+
+

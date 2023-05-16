@@ -4,13 +4,11 @@
 }
 
 .about::before{
-    content: url('./../img/decorate-elements/confetti-big-blue.png');
+    content: url('./../../img/decorate-elements/confetti-big-blue.png');
     position: absolute;
-    display: block;
-
+    
     width: 181px;
-    height: 161px;
-
+    height: 167px;
     top: 421px;
     left: 93px;
     right: 0px;
@@ -38,7 +36,7 @@
     content: '';
     position: absolute;
     
-    background-image: url('./../img/about-music-back.png');
+    background-image: url('./../../img/about-music-back.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;

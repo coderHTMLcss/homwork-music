@@ -4,24 +4,21 @@
 }
 
 .sponsors::before{
-    content: url('./../img/decorate-elements/pattern-sponsors-left.png');
+    content: url('./../../img/decorate-elements/pattern-sponsors-left.png');
     position: absolute;
-    display: block;
-
+    
+    width: 301px;
+    height: 173px;
     top: 62px;
     left: -31px;
-    right: 0px;
 }
 
 .sponsors::after{
-    content: url('./../img/decorate-elements/confetti-sponsors-top.png');
+    content: url('./../../img/decorate-elements/confetti-sponsors-top.png');
     position: absolute;
-    display: block;
 
     top: -93px;
     left: 1649px;
-    right: 0px;
- 
 }
 
 
@@ -31,6 +28,7 @@
 }
 
 .sponsors__list{
+    position: relative;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     align-items: center;
@@ -38,6 +36,14 @@
     grid-gap: 60px 130px;
 
     margin-bottom: 80px;
+}
+
+.sponsors__list::after{
+    content: url('./../../img/decorate-elements/confetti-sponsors-bottom.png');
+    position: absolute;
+
+    right: -331px;
+    bottom: 0px;
 }
 
 .button__primary--spons{
