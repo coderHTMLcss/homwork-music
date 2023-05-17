@@ -48,7 +48,7 @@ html {
     border: none;
     cursor: pointer;
     border-radius: 8px;
-    transition: 0.7s;
+    transition:all 0.7s ease-in-out;
   }
 
   .button__secondary{

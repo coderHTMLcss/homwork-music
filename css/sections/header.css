@@ -57,7 +57,7 @@
     line-height: 20px;
     font-weight: 600;
     text-transform: uppercase;
-    transition: 0.7s;
+    transition:all 0.7s ease-in-out;
 
     color:var(--white-color)
 }
